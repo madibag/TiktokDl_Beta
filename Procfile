@@ -1,1 +1,1 @@
-worker: python3 -m termbot
+worker: python3 -m Tokbot
