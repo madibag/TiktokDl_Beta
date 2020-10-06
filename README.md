@@ -12,8 +12,8 @@ This is Tiktok video Downloader and Uploader to telegram
 Simply clone the repository and run the main file:
 
 ```sh
-git clone https://github.com/SpEcHiDe/TerminalBot.git
-cd TerminalBot
+git clone https://github.com/madibag/TiiktokDl_Beta.git
+cd TiiktokDl_Beta
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
