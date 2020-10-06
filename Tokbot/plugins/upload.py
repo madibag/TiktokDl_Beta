@@ -21,7 +21,7 @@ async def Upload(update,context,file,capt=None,captn=None):
                 caption=capt+'\n'+'🎵:'+captn,
                 width=width,
                 height=height,
-                supports_streaming=True,
+                supports_streaming=True)
     os.remove(file)
     
     
