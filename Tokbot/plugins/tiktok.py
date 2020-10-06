@@ -20,7 +20,7 @@ async def help(client,message):
                                 Simply Paste the
                                 link''')
 
-@Client.on_message(pyrogram.Filters.regex(pattern=".*http.*"))
+@Client.on_message(Filters.regex(pattern=".*http.*"))
 async def download(client,message):
     api = TikTokApi()
     url = message.text
