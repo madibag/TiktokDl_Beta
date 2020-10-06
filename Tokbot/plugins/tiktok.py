@@ -2,7 +2,7 @@ from pyrogram import Client, Filters
 from TikTokApi import TikTokApi
 from requests import get
 from subprocess import call,PIPE
-from upload import Upload
+from Tokbot.plugins.upload import Upload
 
 @Client.on_message(Filters.command(["start"]))
 async def start(client, message):
