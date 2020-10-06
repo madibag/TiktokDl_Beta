@@ -2,4 +2,3 @@ https://github.com/pyrogram/pyrogram/archive/asyncio.zip
 tgcrypto
 TikTokApi
 requests
-pyrogram
