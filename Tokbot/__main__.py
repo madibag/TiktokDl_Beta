@@ -11,7 +11,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-from termbot import (
+from Tokbot import (
     APP_ID,
     API_HASH,
     TG_BOT_TOKEN,
@@ -24,7 +24,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 if __name__ == "__main__":
     plugins = dict(
-        root="termbot/plugins"
+        root="Tokbot/plugins"
     )
     app = pyrogram.Client(
         "TokBot",
