@@ -3,8 +3,8 @@ from pyrogram import (
     Filters
 )
 import asyncio
-from get_lnk import get_lnk
-from upload import Upload
+from Tokbot.plugins.get_lnk import get_lnk
+from Tokbot.plugins.upload import Upload
 
 
 @Client.on_message(Filters.command(["live"]))
