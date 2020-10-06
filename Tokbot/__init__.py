@@ -15,9 +15,9 @@ import os
 
 # the secret configuration specific things
 if bool(os.environ.get("ENV", False)):
-    from termbot.sample_config import Config
+    from Tokbot.sample_config import Config
 else:
-    from termbot.config import Development as Config
+    from Tokbot.config import Development as Config
 
 
 # TODO: is there a better way?
